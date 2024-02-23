@@ -511,3 +511,6 @@ h5 {
   overflow: auto;
   transition: 300ms ease; 
 }
+a{
+  color: inherit !important;
+}

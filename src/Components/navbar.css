@@ -32,7 +32,6 @@ nav .login-Btn {
   background-color: var(--primary);
   color: var(--white, #fff);
 }
-
 @media screen and (max-width: 768px) {
   nav {
     padding: 1rem 1.5rem;
