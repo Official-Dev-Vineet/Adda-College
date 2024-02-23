@@ -58,11 +58,12 @@ const Admission = () => {
     >
       <h2 className="mb tac">Admissions Process</h2>
       <div className="line"></div>
-      <div className="steps ml flex flex-wrap gap-sm  justify-center">
+      <div className="steps ml flex flex-wrap gap-sm  justify-evenly">
         {steps.map((step) => (
           <div
             className="step shadow-3d-light padding-sm mb radius-1 max-w"
             key={step.id}
+            style={{ "--mwValue": 40 }}
           >
             <h3 className="t-primary tac">{step.title}</h3>
             <p

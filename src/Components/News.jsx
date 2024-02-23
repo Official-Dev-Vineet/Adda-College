@@ -83,13 +83,17 @@ const NewsAndEvents = () => {
       style={{ "--mwValue": 100 }}
     >
       <h2 className="tac mb t-info">News and Events</h2>
-      <div className="flex gap-md flex-wrap">
+      <div
+        className="flex gap-md flex-wrap justify-evenly mt"
+        style={{ "--mt": 2 }}
+      >
         {newsAndEventsData.map((item, index) => (
           <div
             key={index}
             className="news-item shadow-3d-light max-w padding-sm radius-1"
+            style={{ "--mwValue": 40 }}
           >
-            <h5 className="t-danger">{item.title}</h5>
+            <h3 className="t-danger">{item.title}</h3>
             <p className="t-success mb">{item.date}</p>
             <p className="t-opacity">{item.description}</p>
           </div>
