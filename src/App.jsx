@@ -5,6 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { lazy, Suspense } from "react";
+import Loader from "./Utils/Loader.jsx";
 const RootLayout = lazy(() => import("./Helper/RootLayout.jsx"));
 const Error = lazy(() => import("./Helper/Error.jsx"));
 const PageNotFound = lazy(() => import("./Helper/PagenotFound.jsx"));
@@ -23,7 +24,7 @@ export const App = () => {
     )
   );
   return (
-    <Suspense fallback={<div className="line"></div>}>
+    <Suspense fallback={<Loader />}>
       <RouterProvider router={routes} />
     </Suspense>
   );
