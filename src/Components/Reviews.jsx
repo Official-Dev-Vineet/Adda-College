@@ -11,7 +11,7 @@ const StudentReviewSlider = ({ reviews }) => {
   useEffect(() => {
     // resize slider
     const slideCountHandler = () => {
-      if (window.innerWidth < 500) {
+      if (window.innerWidth < 600) {
         setCount(1);
       } else if (window.innerWidth < 1024) {
         setCount(2);

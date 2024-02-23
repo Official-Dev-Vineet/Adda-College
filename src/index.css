@@ -511,6 +511,7 @@ h5 {
   height: calc(100vh - 80px);
   overflow: auto;
   transition: 300ms ease;
+  padding: 1rem;
 }
 a {
   color: inherit !important;
