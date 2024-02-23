@@ -67,7 +67,7 @@ const Admission = () => {
           >
             <h3 className="t-primary tac">{step.title}</h3>
             <p
-              className="ml mt"
+              className="ml mt t-bold"
               dangerouslySetInnerHTML={{ __html: step.des }}
             />
           </div>

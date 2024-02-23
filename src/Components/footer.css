@@ -1,0 +1,10 @@
+.footer-links a {
+  font-size: 1.5rem;
+  color: var(--dark);
+  font-weight: 500;
+  color: var(--primary) !important;
+  transition: 300ms ease;
+}
+.footer-logo {
+  align-self: center;
+}

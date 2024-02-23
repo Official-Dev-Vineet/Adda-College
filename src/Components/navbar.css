@@ -9,11 +9,11 @@ nav {
   position: sticky;
   top: 100px;
 }
-nav .logo .icon {
+.logo .icon {
   font-size: calc(2rem + 1vw);
   color: var(--primary);
 }
-nav .logo span {
+.logo span {
   color: var(--info);
   font-weight: 500;
   font-size: clamp(1.4rem, 1.2vw, 2rem);

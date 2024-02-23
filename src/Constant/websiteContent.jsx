@@ -660,27 +660,27 @@ export const footerLinks = [
       {
         name: "facebook",
         link: "https://www.facebook.com/",
-        icon: <FaFacebook />,
+        icon: <FaFacebook className="t-primary" />,
       },
       {
         name: "instagram",
         link: "https://www.instagram.com/",
-        icon: <FaInstagram />,
+        icon: <FaInstagram className="t-primary" />,
       },
       {
         name: "twitter",
         link: "https://twitter.com/",
-        icon: <FaXTwitter />,
+        icon: <FaXTwitter className="t-dark" />,
       },
       {
         name: "youtube",
         link: "https://www.youtube.com/",
-        icon: <FaYoutube />,
+        icon: <FaYoutube className="t-danger" />,
       },
       {
         name: "linkedin",
         link: "https://www.linkedin.com/",
-        icon: <FaLinkedin />,
+        icon: <FaLinkedin className="t-primary" />,
       },
     ],
   },
