@@ -2,6 +2,7 @@ import Banner from "../Utils/Banner";
 import bannerImage from "../assets/hero.jpg";
 import Academic from "./Academic";
 import Admission from "./Admission";
+import NewsAndEvents from "./News";
 const Home = () => {
   return (
     <div className="relative">
@@ -27,6 +28,7 @@ const Home = () => {
       />
       <Academic />
       <Admission />
+      <NewsAndEvents />
     </div>
   );
 };
