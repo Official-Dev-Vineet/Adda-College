@@ -21,7 +21,7 @@ const BannerList = ({ title, description, link, linkName, list, image }) => {
           ))}
       </ul>
       {link && (
-        <div className="banner-footer">
+        <div className="banner-footer flex justify-center align-center">
           <Link to={link}>{linkName}</Link>
         </div>
       )}

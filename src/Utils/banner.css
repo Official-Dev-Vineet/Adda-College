@@ -35,8 +35,8 @@
   line-height: 1;
 }
 .banner .banner-content .btn {
-  padding: 0.5rem 2rem;
-  font-size: clamp(1rem, 1.2vw, 2rem);
+  padding: 0.7rem 2rem;
+  font-size: clamp(1.4rem, 1.2vw, 2rem);
   font-weight: 500;
   color: var(--white);
   vertical-align: middle;

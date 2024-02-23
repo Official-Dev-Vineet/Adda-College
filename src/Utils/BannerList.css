@@ -45,10 +45,14 @@
   margin-top: 1rem;
   background-color: var(--primary);
   color: var(--white);
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 0.5rem;
 }
-
+.banner-list .banner-footer a {
+  width: 100%;
+  display: block;
+  color: inherit;
+}
 @media screen and (max-width: 600px) {
   .banner-list .banner-header {
     grid-template-columns: 1fr;

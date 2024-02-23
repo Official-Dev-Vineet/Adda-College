@@ -16,7 +16,7 @@ nav .logo .icon {
 nav .logo span {
   color: var(--info);
   font-weight: 500;
-  font-size: clamp(1rem, 1.2vw, 2rem);
+  font-size: clamp(1.4rem, 1.2vw, 2rem);
   background-image: linear-gradient(45deg, var(--danger), var(--primary));
   background-clip: text;
   -webkit-background-clip: text;
