@@ -3,14 +3,20 @@ export const logo = Sitelogo;
 import { FaFacebook, FaYoutube, FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
+import { IoIosSchool } from "react-icons/io";
+import { IoMdHome } from "react-icons/io";
+import { GoBook } from "react-icons/go";
+import { GoProjectRoadmap } from "react-icons/go";
 export const navLinks = [
   {
     name: "Home",
     link: "/",
+    icon: <IoMdHome />,
   },
   {
     name: "College",
-    link: "/college",
+    link: "#college",
+    icon: <IoIosSchool />,
     subLinks: [
       {
         name: "Engineering",
@@ -289,7 +295,8 @@ export const navLinks = [
   },
   {
     name: "Exam",
-    link: "/exam",
+    link: "#exam",
+    icon: <GoProjectRoadmap />,
     subLinks: [
       {
         name: "Engineering",
@@ -589,7 +596,8 @@ export const navLinks = [
   },
   {
     name: "Course",
-    link: "/course",
+    link: "#course",
+    icon: <GoBook />,
     subLinks: [
       {
         name: "All",

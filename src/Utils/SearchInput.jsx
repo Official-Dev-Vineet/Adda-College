@@ -7,7 +7,7 @@ export const SearchInput = memo(({ type = "text" }) => {
       <input
         type={type}
         placeholder="Search here..."
-        className={`input transition padding-sm radius-2 shadow-3d-light`}
+        className={`input transition padding-sm radius-1 shadow-3d-light`}
       />
     </>
   );
