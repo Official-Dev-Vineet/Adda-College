@@ -19,7 +19,6 @@ const Academic = () => {
         professional programs designed to challenge, inspire, and cultivate the
         leaders of tomorrow.
       </p>
-      <div className="line"></div>
       <BannerList
         title={"Undergraduate Programs"}
         description={
@@ -43,7 +42,7 @@ const Academic = () => {
         linkName={"Apply Now"}
         image={up}
       />
-      <div className="line"></div>
+
       <BannerList
         title={"Graduate Programs"}
         description={
@@ -67,7 +66,7 @@ const Academic = () => {
         linkName={"Apply Now"}
         image={gp}
       />
-      <div className="line"></div>
+
       <BannerList
         title="Professional and Continuing Education"
         description={
@@ -87,7 +86,6 @@ const Academic = () => {
         linkName={"Apply Now"}
         image={cp}
       />
-      <div className="line"></div>
       <div
         className="academic-footer shadow-3d-light padding-lg radius-1 max-w mx-auto tac"
         style={{ "--mwValue": 100 }}

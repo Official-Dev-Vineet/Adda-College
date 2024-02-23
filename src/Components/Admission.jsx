@@ -57,7 +57,7 @@ const Admission = () => {
       style={{ "--mwValue": 100 }}
     >
       <h2 className="mb tac">Admissions Process</h2>
-      <div className="line"></div>
+
       <div className="steps ml flex flex-wrap gap-sm  justify-evenly">
         {steps.map((step) => (
           <div
