@@ -26,6 +26,8 @@
   color: var(--dark);
   z-index: 1;
   margin: 1rem;
+  padding: 1rem;
+  background-color: var(--light);
 }
 .sidebar .sideBar-content {
   height: 100%;

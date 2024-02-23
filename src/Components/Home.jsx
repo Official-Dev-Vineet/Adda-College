@@ -1,6 +1,7 @@
 import Banner from "../Utils/Banner";
 import bannerImage from "../assets/hero.jpg";
 import Academic from "./Academic";
+import Admission from "./Admission";
 const Home = () => {
   return (
     <div className="relative">
@@ -25,6 +26,7 @@ const Home = () => {
         image={bannerImage}
       />
       <Academic />
+      <Admission />
     </div>
   );
 };

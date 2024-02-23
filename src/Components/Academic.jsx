@@ -6,8 +6,11 @@ import cp from "../assets/cpe.jpg";
 const Academic = () => {
   return (
     <div className="padding-md">
-      <h2 className="tac mb">Academic Programs at Adda College</h2>
-      <p className="tac mb">
+      <h2 className="tac mb t-info">Academic Programs at Adda College</h2>
+      <p
+        className="tac mb max-w mx-auto t-bold"
+        style={{ "--mwValue": 80, "--mb": 3 }}
+      >
         Welcome to the Academic Programs section of Adda College, where we open
         the doors to a world of knowledge, innovation, and opportunity. At Adda
         College, we are dedicated to providing a diverse and dynamic educational
@@ -16,6 +19,7 @@ const Academic = () => {
         professional programs designed to challenge, inspire, and cultivate the
         leaders of tomorrow.
       </p>
+      <div className="line"></div>
       <BannerList
         title={"Undergraduate Programs"}
         description={
@@ -39,6 +43,7 @@ const Academic = () => {
         linkName={"Apply Now"}
         image={up}
       />
+      <div className="line"></div>
       <BannerList
         title={"Graduate Programs"}
         description={
@@ -62,6 +67,7 @@ const Academic = () => {
         linkName={"Apply Now"}
         image={gp}
       />
+      <div className="line"></div>
       <BannerList
         title="Professional and Continuing Education"
         description={
@@ -81,6 +87,33 @@ const Academic = () => {
         linkName={"Apply Now"}
         image={cp}
       />
+      <div className="line"></div>
+      <div
+        className="academic-footer shadow-3d-light padding-lg radius-1 max-w mx-auto tac"
+        style={{ "--mwValue": 100 }}
+      >
+        <h3 className=" t-primary tac mb">Support and Resources</h3>
+        <p className="t-balance t-bold t-opacity">
+          Our commitment to academic excellence is matched by our support for
+          students. From advising and tutoring to career services, we provide
+          the resources you need to succeed.
+        </p>
+        <ul className="tal mt shadow-3d-light padding-sm radius-1 flex flex-col gap-sm t-bold">
+          <li className="shadow-3d-light padding-sm radius-1 t-bold">
+            <strong>Academic Advising</strong> to help you navigate your program
+            and make informed decisions about your educational path.
+          </li>
+          <li className="shadow-3d-light padding-sm radius-1">
+            <strong>Tutoring and Learning Centers</strong> offering support in
+            various subjects to enhance your academic performance.
+          </li>
+          <li className="shadow-3d-light padding-sm radius-1">
+            <strong>Career Services</strong> to prepare you for the job market
+            with resume workshops, internship placements, and networking
+            opportunities.
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

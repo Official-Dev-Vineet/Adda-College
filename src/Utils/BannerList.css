@@ -51,7 +51,7 @@
 .banner-list .banner-footer a {
   width: 100%;
   display: block;
-  color: inherit;
+  color: var(--light) !important;
 }
 @media screen and (max-width: 600px) {
   .banner-list .banner-header {

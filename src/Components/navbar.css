@@ -30,7 +30,13 @@ nav .login-Btn {
   padding: 1rem 2rem;
   font-weight: 600;
   background-color: var(--primary);
-  color: var(--white, #fff);
+  color: var(--light);
+}
+nav .login-Btn span {
+  color: var(--light);
+}
+nav .login-Btn svg {
+  color: var(--light);
 }
 @media screen and (max-width: 768px) {
   nav {

@@ -38,12 +38,12 @@
   padding: 0.7rem 2rem;
   font-size: clamp(1.4rem, 1.2vw, 2rem);
   font-weight: 500;
-  color: var(--white);
+  color: var(--light);
   vertical-align: middle;
   background-color: var(--primary);
 }
 .banner .banner-content .btn a {
-  color: inherit;
+  color: inherit !important;
 }
 .banner .banner-image {
   width: 100%;
