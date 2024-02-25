@@ -1,7 +1,6 @@
 import TimelineFile from "../Utils/TimelineFile";
 import "./aboutPage.css";
 import heroImage from "../assets/about-bg.png";
-import Footer from "./Footer";
 const About = () => {
   const timeline = [
     {
@@ -70,9 +69,11 @@ const About = () => {
     <div className="about-page">
       <header className="hero-header">
         <div className="hero-content">
-          <h1>Welcome to Adda College</h1>
-          <p className="t-bold mt mb">Where Excellence Meets Opportunity</p>
-          <p className="t-balance t-bold">
+          <h1 className="t-primary">Welcome to Adda College</h1>
+          <p className="t-bold mt mb t-info">
+            <q>Where Excellence Meets Opportunity </q>
+          </p>
+          <p className="t-balance t-bold t-opacity">
             Embark on a journey of discovery, growth, and transformation. Join a
             vibrant community of learners, thinkers, and doers. Experience
             education that goes beyond the classroom. Unlock your potential and
@@ -91,8 +92,8 @@ const About = () => {
 
       <section className="our-story">
         <div className="container mt mb">
-          <h2>Our Story</h2>
-          <p className="t-balance t-bold mt mb ml">
+          <h2 className="t-info">Our Story</h2>
+          <p className="t-bold mt mb ml t-t-opacity">
             Established in 2013, Adda College has been a beacon of excellence in
             education for over 10 years. Founded with a vision to nurture minds
             and empower individuals, our institution has evolved into a dynamic
@@ -102,9 +103,8 @@ const About = () => {
           </p>
         </div>
       </section>
-      <h2 className="tac mb t-info">Timeline</h2>
+      <h2 className="tac mb mt">Timeline</h2>
       <TimelineFile timelines={timeline} />
-      <Footer />
     </div>
   );
 };

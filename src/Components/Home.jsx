@@ -2,7 +2,6 @@ import Banner from "../Utils/Banner";
 import bannerImage from "../assets/hero.jpg";
 import Academic from "./Academic";
 import Admission from "./Admission";
-import Footer from "./Footer";
 import NewsAndEvents from "./News";
 import StudentReviewSlider from "./Reviews";
 const studentReviews = [
@@ -107,7 +106,6 @@ const Home = () => {
       <Admission />
       <NewsAndEvents />
       <StudentReviewSlider reviews={studentReviews} />
-      <Footer />
     </div>
   );
 };

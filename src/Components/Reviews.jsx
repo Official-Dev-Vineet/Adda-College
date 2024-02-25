@@ -27,7 +27,7 @@ const StudentReviewSlider = ({ reviews }) => {
   return (
     <div
       className="slider max-w mx-auto shadow-3d-light padding-md radius-1 mt mb"
-      style={{ "--mwValue": 100, "--mt": 3 }}
+      style={{ "--mwValue": 125, "--mt": 3 }}
     >
       <h2 className="tac mb t-success">Student Reviews</h2>
       <Swiper

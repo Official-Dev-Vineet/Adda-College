@@ -80,7 +80,7 @@ const NewsAndEvents = () => {
   return (
     <div
       className="news max-w shadow-3d-light mx-auto mt mb padding-md"
-      style={{ "--mwValue": 100 }}
+      style={{ "--mwValue": 125 }}
     >
       <h2 className="tac mb t-info">News and Events</h2>
       <div
@@ -91,9 +91,9 @@ const NewsAndEvents = () => {
           <div
             key={index}
             className="news-item shadow-3d-light max-w padding-sm radius-1"
-            style={{ "--mwValue": 40 }}
+            style={{ "--mwValue": 35 }}
           >
-            <h3 className="t-danger">{item.title}</h3>
+            <h4 className="t-danger">{item.title}</h4>
             <p className="t-success mb">{item.date}</p>
             <p className="t-opacity">{item.description}</p>
           </div>

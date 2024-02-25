@@ -1,14 +1,11 @@
 .hero-header,
 .our-story {
-  background-image: linear-gradient(45deg, var(--danger), var(--primary));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  max-width: 1000px;
-  margin: 0 auto;
+  margin: 3rem auto;
+  max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 .hero-header .hero-image img {
   filter: drop-shadow(0 0 10rem var(--primary)) saturate(150%);
+  vertical-align: middle;
 }

@@ -1,9 +1,19 @@
+footer {
+  background-color: var(--dark);
+  color: var(--light);
+}
 .footer-links a {
   font-size: 1.5rem;
-  color: var(--dark);
   font-weight: 500;
   color: var(--primary) !important;
   transition: 300ms ease;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+  filter: brightness(150%);
+}
+.footer-links a svg {
+  font-size: 1.5em;
 }
 .footer-logo {
   align-self: center;

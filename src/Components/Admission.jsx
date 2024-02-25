@@ -53,15 +53,15 @@ const Admission = () => {
   ];
   return (
     <div
-      className="admission max-w shadow-3d-light mx-auto padding-sm radius-1"
-      style={{ "--mwValue": 100 }}
+      className="admission max-w shadow-3d-light mx-auto padding-sm radius-1 mb"
+      style={{ "--mwValue": 125 }}
     >
       <h2 className="mb tac">Admissions Process</h2>
 
       <div className="steps ml flex flex-wrap gap-sm  justify-evenly">
         {steps.map((step) => (
           <div
-            className="step shadow-3d-light padding-sm mb radius-1 max-w"
+            className="step shadow-3d-light padding-sm mb mt radius-1 max-w"
             key={step.id}
             style={{ "--mwValue": 40 }}
           >
