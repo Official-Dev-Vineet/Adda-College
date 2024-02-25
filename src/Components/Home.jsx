@@ -81,7 +81,9 @@ const studentReviews = [
 
 const Home = () => {
   return (
+
     <div className="relative">
+      
       <Banner
         title={"Welcome to Adda College"}
         description={

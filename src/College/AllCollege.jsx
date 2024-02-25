@@ -1,5 +1,5 @@
-import { Carousel } from "rsuite";
-import "./slider.css";
+
+import Slider from "../Utils/Slider";
 const AllCollege = () => {
   const sliderImage = [
     {
@@ -32,17 +32,7 @@ const AllCollege = () => {
   ];
   return (
     <div>
-      <Carousel autoplay className="custom-slider slider-area">
-        {sliderImage.map((item, index) => {
-          return (
-            <picture key={index}>
-              <source media="(max-width: 600px)" srcSet={item.minSrc} />
-              <source media="(min-width: 600px)" srcSet={item.maxSrc} />
-              <img src={item.src} alt="adda college" />
-            </picture>
-          );
-        })}
-      </Carousel>
+        <Slider sliderImage={sliderImage} />
     </div>
   );
 };

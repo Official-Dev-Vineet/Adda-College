@@ -655,32 +655,19 @@ export const navLinks = [
 ];
 export const footerLinks = [
   {
-    name: "social_media",
+    name: "Featured",
     links: [
       {
-        name: "facebook",
-        link: "https://www.facebook.com/",
-        icon: <FaFacebook className="t-primary" />,
+        name: "Featured Colleges",
+        link: "/college/featured",
       },
       {
-        name: "instagram",
-        link: "https://www.instagram.com/",
-        icon: <FaInstagram className="t-primary" />,
+        name: "Featured Exams",
+        link: "/exam/featured",
       },
       {
-        name: "twitter",
-        link: "https://twitter.com/",
-        icon: <FaXTwitter className="t-primary" />,
-      },
-      {
-        name: "youtube",
-        link: "https://www.youtube.com/",
-        icon: <FaYoutube className="t-danger" />,
-      },
-      {
-        name: "linkedin",
-        link: "https://www.linkedin.com/",
-        icon: <FaLinkedin className="t-primary" />,
+        name: "Featured Courses",
+        link: "/course/featured",
       },
     ],
   },
@@ -726,20 +713,34 @@ export const footerLinks = [
       },
     ],
   },
+
   {
-    name: "Featured",
+    name: "social_media",
     links: [
       {
-        name: "Featured Colleges",
-        link: "/college/featured",
+        name: "facebook",
+        link: "https://www.facebook.com/",
+        icon: <FaFacebook className="t-primary" />,
       },
       {
-        name: "Featured Exams",
-        link: "/exam/featured",
+        name: "instagram",
+        link: "https://www.instagram.com/",
+        icon: <FaInstagram className="t-primary" />,
       },
       {
-        name: "Featured Courses",
-        link: "/course/featured",
+        name: "twitter",
+        link: "https://twitter.com/",
+        icon: <FaXTwitter className="t-primary" />,
+      },
+      {
+        name: "youtube",
+        link: "https://www.youtube.com/",
+        icon: <FaYoutube className="t-danger" />,
+      },
+      {
+        name: "linkedin",
+        link: "https://www.linkedin.com/",
+        icon: <FaLinkedin className="t-primary" />,
       },
     ],
   },
