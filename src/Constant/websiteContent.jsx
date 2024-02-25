@@ -23,19 +23,19 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "B.tech",
-            link: "/college/:btech",
+            link: "/college/btech",
           },
           {
             name: "M.tech",
-            link: "/college/:mtech",
+            link: "/college/mtech",
           },
           {
             name: "B.Arch",
-            link: "/college/:barch",
+            link: "/college/barch",
           },
           {
             name: "Diploma",
-            link: "/college/:diploma",
+            link: "/college/diploma",
           },
         ],
       },
@@ -44,31 +44,31 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "B.pharm",
-            link: "/college/:bpharm",
+            link: "/college/bpharm",
           },
           {
             name: "M.pharm",
-            link: "/college/:mpharm",
+            link: "/college/mpharm",
           },
           {
             name: "BDS",
-            link: "/college/:bds",
+            link: "/college/bds",
           },
           {
             name: "MD",
-            link: "/college/:md",
+            link: "/college/md",
           },
           {
             name: "BHMS",
-            link: "/college/:bhms",
+            link: "/college/bhms",
           },
           {
             name: "BAMS",
-            link: "/college/:bams",
+            link: "/college/bams",
           },
           {
             name: "MS",
-            link: "/college/:ms",
+            link: "/college/ms",
           },
         ],
       },
@@ -77,23 +77,23 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "LLB",
-            link: "/college/:llb",
+            link: "/college/llb",
           },
           {
             name: "LLM",
-            link: "/college/:llm",
+            link: "/college/llm",
           },
           {
             name: "BA+LLB",
-            link: "/college/:ballb",
+            link: "/college/ballb",
           },
           {
             name: "B.Com + LLB",
-            link: "/college/:bcomllb",
+            link: "/college/bcomllb",
           },
           {
             name: "BBA + LLB",
-            link: "/college/:bballb",
+            link: "/college/bballb",
           },
         ],
       },
@@ -102,19 +102,19 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "BBA",
-            link: "/college/:bba",
+            link: "/college/bba",
           },
           {
             name: "MBA",
-            link: "/college/:mba",
+            link: "/college/mba",
           },
           {
             name: "BBM",
-            link: "/college/:bbm",
+            link: "/college/bbm",
           },
           {
             name: "PGDM",
-            link: "/college/:pgdm",
+            link: "/college/pgdm",
           },
         ],
       },
@@ -123,15 +123,15 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "B.Pharma",
-            link: "/college/:bpharma",
+            link: "/college/bpharma",
           },
           {
             name: "M.Pharma",
-            link: "/college/:mpharma",
+            link: "/college/mpharma",
           },
           {
             name: "Pharma.D.",
-            link: "/college/:pharmad",
+            link: "/college/pharmad",
           },
         ],
       },
@@ -140,15 +140,15 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "B.Arch",
-            link: "/college/:barch",
+            link: "/college/barch",
           },
           {
             name: "M.Arch",
-            link: "/college/:march",
+            link: "/college/march",
           },
           {
             name: "D.Arch",
-            link: "/college/:darch",
+            link: "/college/darch",
           },
         ],
       },
@@ -157,23 +157,23 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "B.Com",
-            link: "/college/:bcom",
+            link: "/college/bcom",
           },
           {
             name: "M.Com",
-            link: "/college/:mcom",
+            link: "/college/mcom",
           },
           {
             name: "BBA",
-            link: "/college/:bba",
+            link: "/college/bba",
           },
           {
             name: "MBA",
-            link: "/college/:mba",
+            link: "/college/mba",
           },
           {
             name: "BBM",
-            link: "/college/:bbm",
+            link: "/college/bbm",
           },
         ],
       },
@@ -182,19 +182,19 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "B.Sc",
-            link: "/college/:bsc",
+            link: "/college/bsc",
           },
           {
             name: "M.Sc",
-            link: "/college/:msc",
+            link: "/college/msc",
           },
           {
             name: "MS",
-            link: "/college/:ms",
+            link: "/college/ms",
           },
           {
             name: "Diploma",
-            link: "/college/:diploma",
+            link: "/college/diploma",
           },
         ],
       },
@@ -203,19 +203,19 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "G.N.M",
-            link: "/college/:gnm",
+            link: "/college/gnm",
           },
           {
             name: "A.N.M",
-            link: "/college/:anm",
+            link: "/college/anm",
           },
           {
             name: "B.Sc",
-            link: "/college/:bsc",
+            link: "/college/bsc",
           },
           {
             name: "M.Sc",
-            link: "/college/:msc",
+            link: "/college/msc",
           },
         ],
       },
@@ -224,11 +224,11 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "B.Des",
-            link: "/college/:bdes",
+            link: "/college/bdes",
           },
           {
             name: "M.Des",
-            link: "/college/:mdes",
+            link: "/college/mdes",
           },
         ],
       },
@@ -237,15 +237,15 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "B.Ed",
-            link: "/college/:bed",
+            link: "/college/bed",
           },
           {
             name: "M.Ed",
-            link: "/college/:med",
+            link: "/college/med",
           },
           {
             name: "B.T.C",
-            link: "/college/:B.T.C",
+            link: "/college/B.T.C",
           },
         ],
       },
@@ -254,19 +254,19 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "BA",
-            link: "/college/:ba",
+            link: "/college/ba",
           },
           {
             name: "MA",
-            link: "/college/:ma",
+            link: "/college/ma",
           },
           {
             name: "PGDM",
-            link: "/college/:pgdm",
+            link: "/college/pgdm",
           },
           {
             name: "Diploma",
-            link: "/college/:diploma",
+            link: "/college/diploma",
           },
         ],
       },
@@ -275,19 +275,19 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "B.M.L.T",
-            link: "/college/:bmlt",
+            link: "/college/bmlt",
           },
           {
             name: "B.P.T",
-            link: "/college/:bpt",
+            link: "/college/bpt",
           },
           {
             name: "M.P.T",
-            link: "/college/:mpt",
+            link: "/college/mpt",
           },
           {
             name: "B.Optom.",
-            link: "/college/:boptom",
+            link: "/college/boptom",
           },
         ],
       },
@@ -303,27 +303,27 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "JEE Mains",
-            link: "/exam/:jeemains",
+            link: "/exam/jeemains",
           },
           {
             name: "NEET",
-            link: "/exam/:neet",
+            link: "/exam/neet",
           },
           {
             name: "JEE Advance",
-            link: "/exam/:jeeadvance",
+            link: "/exam/jeeadvance",
           },
           {
             name: "BITSAT",
-            link: "/exam/:bitsat",
+            link: "/exam/bitsat",
           },
           {
             name: "GATE",
-            link: "/exam/:gate",
+            link: "/exam/gate",
           },
           {
             name: "WBJEE",
-            link: "/exam/:wbjee",
+            link: "/exam/wbjee",
           },
         ],
       },
@@ -332,23 +332,23 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "NEET UG",
-            link: "/exam/:neetug",
+            link: "/exam/neetug",
           },
           {
             name: "NEET PG",
-            link: "/exam/:neetpg",
+            link: "/exam/neetpg",
           },
           {
             name: "JIPMER",
-            link: "/exam/:jipmer",
+            link: "/exam/jipmer",
           },
           {
             name: "AIMS UG",
-            link: "/exam/:aimsug",
+            link: "/exam/aimsug",
           },
           {
             name: "AIMS PG",
-            link: "/exam/:aimsug",
+            link: "/exam/aimsug",
           },
         ],
       },
@@ -357,27 +357,27 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "CAT",
-            link: "/exam/:cat",
+            link: "/exam/cat",
           },
           {
             name: "XAT",
-            link: "/exam/:xat",
+            link: "/exam/xat",
           },
           {
             name: "NMAT",
-            link: "/exam/:nmat",
+            link: "/exam/nmat",
           },
           {
             name: "CMAT",
-            link: "/exam/:cmat",
+            link: "/exam/cmat",
           },
           {
             name: "MAT",
-            link: "/exam/:mat",
+            link: "/exam/mat",
           },
           {
             name: "KIITEE",
-            link: "/exam/:kiitee",
+            link: "/exam/kiitee",
           },
         ],
       },
@@ -386,21 +386,21 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "IBPS PO",
-            link: "/exam/:ibpspo",
+            link: "/exam/ibpspo",
           },
           {
             name: "SBI PO",
-            link: "/exam/:sbipo",
+            link: "/exam/sbipo",
           },
           {
             name: "DU JAT",
-            link: "/exam/:dujat",
+            link: "/exam/dujat",
           },
           {
             name: "CUSAT CAT",
-            link: "/exam/:cusatcat",
+            link: "/exam/cusatcat",
           },
-          { name: "JMIEE", link: "/exam/:jmiee" },
+          { name: "JMIEE", link: "/exam/jmiee" },
         ],
       },
       {
@@ -408,19 +408,19 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "KIITEE",
-            link: "/exam/:kiitee",
+            link: "/exam/kiitee",
           },
           {
             name: "GSAT",
-            link: "/exam/:gsat",
+            link: "/exam/gsat",
           },
           {
             name: "JUIT",
-            link: "/exam/:juit",
+            link: "/exam/juit",
           },
           {
             name: "CUCET",
-            link: "/exam/:cucet",
+            link: "/exam/cucet",
           },
         ],
       },
@@ -429,11 +429,11 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "UPSEE",
-            link: "/exam/:upsee",
+            link: "/exam/upsee",
           },
-          { name: "LPUNEST", link: "/exam/:lpunest" },
-          { name: "IPU CET", link: "/exam/:ipucet" },
-          { name: "SAAT", link: "/exam/:saat" },
+          { name: "LPUNEST", link: "/exam/lpunest" },
+          { name: "IPU CET", link: "/exam/ipucet" },
+          { name: "SAAT", link: "/exam/saat" },
         ],
       },
       {
@@ -441,19 +441,19 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "OJEE",
-            link: "/exam/:ojee",
+            link: "/exam/ojee",
           },
           {
             name: "UPSEE",
-            link: "/exam/:upsee",
+            link: "/exam/upsee",
           },
           {
             name: "VITMEE",
-            link: "/exam/:vitmee",
+            link: "/exam/vitmee",
           },
           {
             name: "JNUEE",
-            link: "/exam/:jnuee",
+            link: "/exam/jnuee",
           },
         ],
       },
@@ -462,19 +462,19 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "TISSNET",
-            link: "/exam/:tissnet",
+            link: "/exam/tissnet",
           },
           {
             name: "JUET",
-            link: "/exam/:juet",
+            link: "/exam/juet",
           },
           {
             name: "MDU CEE",
-            link: "/exam/:mducee",
+            link: "/exam/mducee",
           },
           {
             name: "BHU UET",
-            link: "/exam/:bhuuet",
+            link: "/exam/bhuuet",
           },
         ],
       },
@@ -483,19 +483,19 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "TS EAMSAT",
-            link: "/exam/:tseamsat",
+            link: "/exam/tseamsat",
           },
           {
             name: "ICAR AIEEA",
-            link: "/exam/:icaraieea",
+            link: "/exam/icaraieea",
           },
           {
             name: "BCECE",
-            link: "/exam/:bcece",
+            link: "/exam/bcece",
           },
           {
             name: "SAAT",
-            link: "/exam/:saat",
+            link: "/exam/saat",
           },
         ],
       },
@@ -504,23 +504,23 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "CLAT",
-            link: "/exam/:clat",
+            link: "/exam/clat",
           },
           {
             name: "LSAT",
-            link: "/exam/:lsat",
+            link: "/exam/lsat",
           },
           {
             name: "AP LAWCET",
-            link: "/exam/:aplawcet",
+            link: "/exam/aplawcet",
           },
           {
             name: "AILET",
-            link: "/exam/:ailet",
+            link: "/exam/ailet",
           },
           {
             name: "SET",
-            link: "/exam/:set",
+            link: "/exam/set",
           },
         ],
       },
@@ -529,15 +529,15 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "VSAT",
-            link: "/exam/:vsat",
+            link: "/exam/vsat",
           },
           {
             name: "BUAT",
-            link: "/exam/:buat",
+            link: "/exam/buat",
           },
           {
             name: "HPCET",
-            link: "/exam/:hpcet",
+            link: "/exam/hpcet",
           },
         ],
       },
@@ -546,19 +546,19 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "CEED",
-            link: "/exam/:ceed",
+            link: "/exam/ceed",
           },
           {
             name: "AIEED",
-            link: "/exam/:aieed",
+            link: "/exam/aieed",
           },
           {
             name: "KIITEE",
-            link: "/exam/:kiitee",
+            link: "/exam/kiitee",
           },
           {
             name: "LPUNEST",
-            link: "/exam/:lpunest",
+            link: "/exam/lpunest",
           },
         ],
       },
@@ -567,11 +567,11 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "AIIMS",
-            link: "/exam/:aiims",
+            link: "/exam/aiims",
           },
           {
             name: "JIPMER",
-            link: "/exam/:jipmer",
+            link: "/exam/jipmer",
           },
         ],
       },
@@ -580,15 +580,15 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "UGC NET",
-            link: "/exam/:ugcnet",
+            link: "/exam/ugcnet",
           },
           {
             name: "DUET",
-            link: "/exam/:duet",
+            link: "/exam/duet",
           },
           {
             name: "APSET",
-            link: "/exam/:apset",
+            link: "/exam/apset",
           },
         ],
       },
@@ -604,50 +604,50 @@ export const navLinks = [
         LinksByDegree: [
           {
             name: "BTECH",
-            link: "/course/:btech",
+            link: "/course/btech",
           },
           {
             name: "MTECH",
-            link: "/course/:mtech",
+            link: "/course/mtech",
           },
           {
             name: "BARCH",
-            link: "/course/:barch",
+            link: "/course/barch",
           },
           {
             name: "DIPLOMA",
-            link: "/course/:diploma",
+            link: "/course/diploma",
           },
           {
             name: "BSC Radiotherapy",
-            link: "/course/:bscradiotherapy",
+            link: "/course/bscradiotherapy",
           },
           {
             name: "BSC Medical laboratory technology",
-            link: "/course/:bscmedlaboratory",
+            link: "/course/bscmedlaboratory",
           },
           {
             name: "MBA",
-            link: "/course/:mba",
+            link: "/course/mba",
           },
           {
             name: "MCA",
-            link: "/course/:mca",
+            link: "/course/mca",
           },
           {
             name: "BBA",
-            link: "/course/:bba",
+            link: "/course/bba",
           },
           {
             name: "BSC",
-            link: "/course/:bsc",
+            link: "/course/bsc",
           },
           {
             name: "BCA",
-            link: "/course/:bca",
+            link: "/course/bca",
           },
-          { name: "B.Com", link: "/course/:bcom" },
-          { name: "BDS", link: "/course/:bds" },
+          { name: "B.Com", link: "/course/bcom" },
+          { name: "BDS", link: "/course/bds" },
         ],
       },
     ],
@@ -731,15 +731,15 @@ export const footerLinks = [
     links: [
       {
         name: "Featured Colleges",
-        link: "/college/:featured",
+        link: "/college/featured",
       },
       {
         name: "Featured Exams",
-        link: "/exam/:featured",
+        link: "/exam/featured",
       },
       {
         name: "Featured Courses",
-        link: "/course/:featured",
+        link: "/course/featured",
       },
     ],
   },

@@ -13,6 +13,8 @@ const Home = lazy(() => import("./Components/Home.jsx"));
 const About = lazy(() => import("./Components/About.jsx"));
 const Login = lazy(() => import("./Auth/Login.jsx"));
 const Register = lazy(() => import("./Auth/Register.jsx"));
+const College = lazy(() => import("./College/College.jsx"));
+const AllCollege = lazy(() => import("./College/AllCollege.jsx"));
 export const App = () => {
   const routes = createBrowserRouter(
     createRoutesFromElements(
@@ -21,7 +23,9 @@ export const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/college" element={<>college</>} />
+        <Route path="/college" element={<AllCollege />}>
+          <Route path=":id" element={<College />} />
+        </Route>
         <Route path="/contact-us" element={<>Contact us</>} />
         <Route path="*" element={<PageNotFound />} />
       </Route>
